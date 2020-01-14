@@ -1,0 +1,71 @@
+#mySketch {
+  width: 800px;
+  height: 250px;
+  outline: 2px solid black;
+  outline-offset: 15px;
+  margin: auto;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  text-align: center;
+  background-color: rgb(184, 236, 244);
+}
+
+main {
+  min-width: 800px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(184, 236, 244);
+}
+
+header {
+  text-align: center;
+  line-height: 3em;
+  background-color: rgb(246, 246, 246);
+}
+
+section {
+  float: left;
+  width: 33.33%;
+  padding-bottom: 1rem;
+}
+
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3 {
+  font-size: 1.3em;
+  grid-column: 1/2;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 2px 2px rgba(39, 32, 121, 0.7);
+
+}
+
+ul {
+  line-height: 1.5em;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+a {
+  display: inline-block;
+  text-align: center;
+}
