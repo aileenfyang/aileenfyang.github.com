@@ -1,0 +1,95 @@
+body{
+  font-family: 'Jaldi', sans-serif;
+  color: #290628;
+  font-size: 1.3em;
+  line-height: 1.6;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 1rem;
+  text-align: center;
+}
+h1{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight:400;
+  color: #D30C7B;
+  font-size: 1.6em;
+}
+h2{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight:400;
+  color: #F9A03F;
+  font-size: 1.3em;
+}
+nav{
+  text-align: center;
+}
+nav > ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+a{
+  display: block;
+  background-color: #299fc8;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: white;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+p{
+  text-align:left;
+}
+.backgroundimage{
+  background-image: url("images/sf.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backgroundimage p{
+  color: white;
+  background-color: rgb(0,0,0,.6);
+  padding-left: 5%;
+  padding-right: 5%;
+}
+main{
+  background-color: #FFE3DC;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+footer{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,159,200,1) 35%, rgba(0,212,255,1) 100%);
+  color: white;
+}
+footer a{
+  color: white;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,159,200,1) 35%, rgba(0,212,255,1) 100%);
+}
+header{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+@media only screen and (min-width: 600px) {
+  main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+  }
+  article{
+    width:30%;
+  }
+  nav ul{
+    display: flex;
+  }
+  li{
+    flex:1;
+    border-right-style: solid;
+  }
+  li:last-of-type{
+    border: 0;
+  }
+}

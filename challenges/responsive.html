@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <meta charset="utf-8">
+  <title>Challenge 5</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Jaldi|Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>HTML and CSS Refresher Challenges</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">HTML Basics</a></li>
+      <li><a href="cssbasics.html">CSS Basics</a></li>
+      <li><a href="layout.html">Page Layout</a></li>
+      <li><a href="responsive.html">Responsive Design</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <h2>About Media Queries</h2>
+      <p>Media queries let the webpage change depending on the condition. The @media lets certain CSS properties defined under it show when certain criteria are met, such as the minimum webapge width. A min-width query makes the CSS under the query visible if the window is bigger than the size specified. A max-width query makes the CSS under the query visible if the window is smaller than the size specified. We often start designing on a smaller screen then design up to larger screens (called mobile first design) because it makes for better experience for mobile users and most users are mobile anyways.</p>
+    </article>
+
+    <article>
+      <h2>Relative Units</h2>
+      <p>We often use relative units (such as rem, em, vw, vh) in web design because they change based on the size of the based on another length. For example, vw and vh change based on the viewport size, which is helpful when designing for different sized windows. Em is based on parent font sizes so it can be a percentage of how big its parent font is.</p>
+      <img src ="images/box model.png" alt="box model" width="600" height="463">
+    </article>
+
+    <article>
+      <h2>Meta Viewport Tag</h2>
+      <p>A meta viewport tag is used control how a page scales based on how big the viewport is, or how much of a webpage a person can see. We write it at the top of the page to determine how big the user's viewport is and we can use css to adjust the page accordingly. When the meta viewport tag is there and the page is seen in the inspector, you can see the page with the text. Without it, only the top left of the large webpage can be seen.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>Page by Aileen Yang</p>
+    <p>HTML checked by Cynthia and Emmanuel</p>
+    <p><a href="http://validator.w3.org/check?uri=referer">Valid HTML</a></p>
+  </footer>
+
+</body>
+
+</html>
