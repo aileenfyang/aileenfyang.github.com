@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>JS Experimentation</title>
+</head>
+
+<body>
+  <h1>JS Experimentation</h1>
+  <p>This program takes a word and a number, returning your word scrambled with only the even letters and tacking on a random verb. It repeats the new output the number of times user determines with the number</p>
+  <script>
+    var input = prompt("Enter a word");
+    var verbList = ['jump', 'run', 'cry', 'laugh' ];
+    var myInt = prompt("Enter a number");
+    var output;
+    var newWord = "";
+    function evenLetters(anInput)
+    {
+      if (input == null || input === "")
+      {
+        console.log("That's not a word!")
+      }
+      else
+      {
+        for (i = 0; i < input.length; i++)
+        {
+          if (i % 2 == 0)
+          {
+            newWord = newWord + input[i];
+          }
+        }
+      }
+      return newWord;
+    }
+    function wordAndVerb(aList)
+    {
+      var randVerb;
+      randInt = Math.floor(Math.random()*4);
+      randVerb = verbList[randInt];
+      output = newWord + " " +randVerb;
+      return output;
+    }
+    function repeatTimes(number)
+    {
+      if(parseInt(number)){
+        console.log(output.repeat(myInt));
+      }
+
+    }
+    evenLetters(input);
+    wordAndVerb(verbList);
+    repeatTimes(myInt);
+  </script>
+
+</body>
+
+</html>
