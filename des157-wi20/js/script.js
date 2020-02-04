@@ -14,5 +14,5 @@ function draw() {
     fill(random(255), random(255), random(255), random(255));
   }
     var circSize = random(200);
-  ellipse(mouseX, mouseY, circSize, circSize);
+  rect(mouseX, mouseY, circSize, circSize);
 }
