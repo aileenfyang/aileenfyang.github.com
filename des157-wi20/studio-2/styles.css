@@ -1,0 +1,40 @@
+body{
+  background-color: #EBF5FF;
+}
+.invisible {
+  display: none;
+}
+.visible{
+  background-color: #D2DFFF;
+  width: 50rem;
+  height: 10rem;
+  font-family: 'Carrois Gothic', sans-serif;
+  font-size: 1rem;
+  margin: auto;
+}
+.visible p{
+  padding: 3%;
+}
+img{
+  display: inline-block;
+  padding: 5%;
+  width: 10rem;
+  margin: 0;
+}
+.btns{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 3rem;
+  padding-top: 3rem;;
+}
+footer{
+  display:block;
+  position: fixed;
+  top: 95vh;
+  left: 80vw;
+  font-family: 'Carrois Gothic', sans-serif;
+  font-size: 1rem;
+}
