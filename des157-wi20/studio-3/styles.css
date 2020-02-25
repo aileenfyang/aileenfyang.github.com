@@ -1,0 +1,75 @@
+html{
+  background-color: #fce1de;
+}
+h1{
+  font-family: 'Unica One' ;
+  text-align: center;
+  font-size: 3rem;
+}
+p{
+  font-family: 'Gothic A1' ;
+  text-align: center;
+}
+h2{
+  font-family: 'Unica One' ;
+  font-size: 3rem;
+  text-align: center;
+}
+body{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+#gamecontrol{
+  text-align: center;
+}
+#roll{
+  text-align: center;
+}
+.centerme{
+  text-align: center;
+}
+#quit{
+  font-family: 'Gothic A1' ;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+}
+#roll{
+  font-family: 'Gothic A1' ;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+}
+#startgame{
+  font-family: 'Gothic A1' ;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+}
+#rollagain{
+  font-family: 'Gothic A1' ;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+}
+#pass{
+  font-family: 'Gothic A1' ;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+}
+footer{
+  font-family: 'Gothic A1' ;
+  position:absolute;
+  bottom: 0;
+}
