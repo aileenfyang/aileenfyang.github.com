@@ -1,0 +1,121 @@
+html{
+  scroll-behavior: smooth;
+}
+h1{
+  font-family: 'Unica One', cursive;
+	color: white;
+	font-size: 5rem;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  width: 80vw;
+  padding-top: 20%;
+}
+h2{
+  font-family: 'Unica One', cursive;
+	color: white;
+	font-size: 3rem;
+  width: 30vw;
+  text-align: center;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 2rem;
+
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  padding-left: none;
+  padding-right: none;
+  padding-top: 1rem;
+  margin:0;
+}
+h4{
+  font-family: 'Unica One', cursive;
+	color: black;
+	font-size: 5rem;
+  text-align: left;
+  margin-top: auto;
+  text-decoration: none;
+  width: 50vw;
+  padding-top: 20%;
+  margin-left: 8%;
+}
+p{
+  font-family: 'Unica One', cursive;
+	color: white;
+	font-size: 1.4rem;
+  width: 30vw;
+  text-align: center;
+  margin: auto;
+  padding-top: 2rem;
+
+}
+h5{
+  font-family: 'Roboto', sans-serif;
+	color: #131AA4;
+	font-size: 3rem;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  width: 80vw;
+
+}
+input{
+	text-align: center;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0);
+	font-size: 1.5rem;
+}
+.input2{
+	text-align: center;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0);
+	font-size: 1.5rem;
+  box-shadow: 3px 3px 3px 3px #cecece;
+}
+div{
+  width: 100vw;
+  height: 100vh;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+	color: #cecece;
+  text-align: center;
+}
+/*** PAGE CLASSES ***/
+.page1{
+  background-image: url(images/home.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+.page2{
+  background-color: black;
+
+}
+.page3{
+  background-image: url(images/car-01.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+.page4{
+  padding-top: 14%;
+}
+.page5{
+  background-color: white;
+}
+.page6{
+  background-color: #5E84A7;
+  padding-top: 13%;
+}
+/*** JS based pages***/
+#output1{
+  padding-top: 5%;
+}
